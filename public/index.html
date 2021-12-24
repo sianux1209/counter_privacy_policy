@@ -1,89 +1,519 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.6.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.6.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.6.1/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=ks_c_5601-1987">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="index.files/filelist.xml">
+<style id="privacy_policy_counter_28005_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font528005
+	{color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;}
+.xl6328005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6428005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6528005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6628005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6728005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6828005
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"¸¼Àº °íµñ", monospace;
+	mso-font-charset:129;
+	mso-char-type:none;}
+-->
+</style>
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome_Deploy_Test</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+<body>
+<!--[if !excel]>¡¡¡¡<![endif]-->
+<!--´ÙÀ½ ³»¿ëÀº Microsoft ExcelÀÇ À¥ ÆäÀÌÁö·Î °Ô½Ã ¸¶¹ý»ç¸¦ »ç¿ëÇÏ¿© ÀÛ¼ºµÇ¾ú½À´Ï´Ù.-->
+<!--°°Àº ³»¿ëÀÇ Ç×¸ñÀÌ ´Ù½Ã °Ô½ÃµÇ¸é DIV ÅÂ±× »çÀÌ¿¡ ÀÖ´Â ³»¿ëÀÌ º¯°æµË´Ï´Ù.-->
+<!----------------------------->
+<!--ExcelÀÇ À¥ ÆäÀÌÁö ¸¶¹ý»ç·Î °Ô½ÃÇØ¼­ ³ª¿Â °á°úÀÇ ½ÃÀÛ -->
+<!----------------------------->
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥ðŸ”¥
+<div id="privacy_policy_counter_28005" align=center x:publishsource="Excel">
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+<table border=0 cellpadding=0 cellspacing=0 width=967 class=xl6528005
+ style='border-collapse:collapse;table-layout:fixed;width:725pt'>
+ <col class=xl6528005 width=967 style='mso-width-source:userset;mso-width-alt:
+ 30950;width:725pt'>
+ <tr height=34 style='height:25.2pt'>
+  <td height=34 class=xl6628005 width=967 style='height:25.2pt;width:725pt'>°³ÀÎÁ¤º¸Ã³¸®¹æÄ§</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>TwoGirls(ÀÌÇÏ
+  '°³¹ßÀÚ')´Â ¡¸°³ÀÎÁ¤º¸ º¸È£¹ý¡¹ Á¦30Á¶¿¡ µû¶ó Á¤º¸ÁÖÃ¼ÀÇ °³ÀÎÁ¤º¸¸¦ º¸È£ÇÏ°í ÀÌ¿Í °ü·ÃÇÑ °íÃæÀ» ½Å¼ÓÇÏ°í ¿øÈ°ÇÏ°Ô Ã³¸®ÇÒ ¼ö ÀÖµµ·Ï
+  ÇÏ±â À§ÇÏ¿© ´ÙÀ½°ú °°ÀÌ °³ÀÎÁ¤º¸ Ã³¸®¹æÄ§À» ¼ö¸³¡¤°ø°³ÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¡Û ÀÌ
+  °³ÀÎÁ¤º¸Ã³¸®¹æÄ§Àº&nbsp;2021³â&nbsp;12¿ù&nbsp;24ºÎÅÍ Àû¿ëµË´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦1Á¶(°³ÀÎÁ¤º¸ÀÇ
+  Ã³¸® ¸ñÀû)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6428005 width=967 style='height:63.0pt;width:725pt'>°³¹ßÀÚ´Â
+  ´ÙÀ½ÀÇ ¸ñÀûÀ» À§ÇÏ¿© °³ÀÎÁ¤º¸¸¦ Ã³¸®ÇÕ´Ï´Ù. Ã³¸®ÇÏ°í ÀÖ´Â °³ÀÎÁ¤º¸´Â ´ÙÀ½ÀÇ ¸ñÀû ÀÌ¿ÜÀÇ ¿ëµµ·Î´Â ÀÌ¿ëµÇÁö ¾ÊÀ¸¸ç ÀÌ¿ë ¸ñÀûÀÌ º¯°æµÇ´Â
+  °æ¿ì¿¡´Â ¡¸°³ÀÎÁ¤º¸ º¸È£¹ý¡¹ Á¦18Á¶¿¡ µû¶ó º°µµÀÇ µ¿ÀÇ¸¦ ¹Þ´Â µî ÇÊ¿äÇÑ Á¶Ä¡¸¦ ÀÌÇàÇÒ ¿¹Á¤ÀÔ´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6728005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>1.
+  ÀçÈ­ ¶Ç´Â ¼­ºñ½º Á¦°ø</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>¼­ºñ½º
+  Á¦°øÀ» ¸ñÀûÀ¸·Î °³ÀÎÁ¤º¸¸¦ Ã³¸®ÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.6pt'>
+  <td height=25 class=xl6428005 width=967 style='height:18.6pt;width:725pt'>Á¦2Á¶(°³ÀÎÁ¤º¸ÀÇ
+  Ã³¸® ¹× º¸À¯ ±â°£)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ç&nbsp;°³¹ßÀÚ´Â
+  ¹ý·É¿¡ µû¸¥ °³ÀÎÁ¤º¸ º¸À¯¡¤ÀÌ¿ë±â°£ ¶Ç´Â Á¤º¸ÁÖÃ¼·ÎºÎÅÍ °³ÀÎÁ¤º¸¸¦ ¼öÁý ½Ã¿¡ µ¿ÀÇ¹ÞÀº °³ÀÎÁ¤º¸ º¸À¯¡¤ÀÌ¿ë±â°£ ³»¿¡¼­ °³ÀÎÁ¤º¸¸¦
+  Ã³¸®¡¤º¸À¯ÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¨è
+  °¢°¢ÀÇ °³ÀÎÁ¤º¸ Ã³¸® ¹× º¸À¯ ±â°£Àº ´ÙÀ½°ú °°½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6728005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>1.ÀçÈ­
+  ¶Ç´Â ¼­ºñ½º Á¦°ø</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6828005 width=967 style='height:42.0pt;width:725pt'>ÀçÈ­
+  ¶Ç´Â ¼­ºñ½º Á¦°ø°ú °ü·ÃÇÑ °³ÀÎÁ¤º¸´Â ¼öÁý.ÀÌ¿ë¿¡ °üÇÑ µ¿ÀÇÀÏ·ÎºÎÅÍ 3³â±îÁö À§ ÀÌ¿ë¸ñÀûÀ» À§ÇÏ¿© º¸À¯.ÀÌ¿ëµË´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>º¸À¯±Ù°Å
+  : ¼­ºñ½º ¿À·ù ÇØ°áÀ» À§ÇÑ ±â¼úÀû ¸ñÀû</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>°ü·Ã¹ý·É
+  : ¼ÒºñÀÚÀÇ ºÒ¸¸ ¶Ç´Â ºÐÀïÃ³¸®¿¡ °üÇÑ ±â·Ï : 3³â</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦3Á¶(Á¤º¸ÁÖÃ¼¿Í
+  ¹ýÁ¤´ë¸®ÀÎÀÇ ±Ç¸®¡¤ÀÇ¹« ¹× ±× Çà»ç¹æ¹ý)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¨ç
+  Á¤º¸ÁÖÃ¼´Â °³¹ßÀÚ¿¡ ´ëÇØ ¾ðÁ¦µçÁö °³ÀÎÁ¤º¸ ¿­¶÷¡¤Á¤Á¤¡¤»èÁ¦¡¤Ã³¸®Á¤Áö ¿ä±¸ µîÀÇ ±Ç¸®¸¦ Çà»çÇÒ ¼ö ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨è
+  Á¦1Ç×¿¡ µû¸¥ ±Ç¸® Çà»ç´Â°³¹ßÀÚ¿¡ ´ëÇØ ¡¸°³ÀÎÁ¤º¸ º¸È£¹ý¡¹ ½ÃÇà·É Á¦41Á¶Á¦1Ç×¿¡ µû¶ó ¼­¸é, ÀüÀÚ¿ìÆí, ¸ð»çÀü¼Û(FAX) µîÀ» ÅëÇÏ¿©
+  ÇÏ½Ç ¼ö ÀÖÀ¸¸ç °³¹ßÀÚ´Â ÀÌ¿¡ ´ëÇØ ÁöÃ¼ ¾øÀÌ Á¶Ä¡ÇÏ°Ú½À´Ï´Ù.</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨é
+  Á¦1Ç×¿¡ µû¸¥ ±Ç¸® Çà»ç´Â Á¤º¸ÁÖÃ¼ÀÇ ¹ýÁ¤´ë¸®ÀÎÀÌ³ª À§ÀÓÀ» ¹ÞÀº ÀÚ µî ´ë¸®ÀÎÀ» ÅëÇÏ¿© ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.ÀÌ °æ¿ì ¡°°³ÀÎÁ¤º¸ Ã³¸® ¹æ¹ý¿¡
+  °üÇÑ °í½Ã(Á¦2020-7È£)¡± º°Áö Á¦11È£ ¼­½Ä¿¡ µû¸¥ À§ÀÓÀåÀ» Á¦ÃâÇÏ¼Å¾ß ÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ê
+  °³ÀÎÁ¤º¸ ¿­¶÷ ¹× Ã³¸®Á¤Áö ¿ä±¸´Â ¡¸°³ÀÎÁ¤º¸ º¸È£¹ý¡¹ Á¦35Á¶ Á¦4Ç×, Á¦37Á¶ Á¦2Ç×¿¡ ÀÇÇÏ¿© Á¤º¸ÁÖÃ¼ÀÇ ±Ç¸®°¡ Á¦ÇÑ µÉ ¼ö ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ë
+  °³ÀÎÁ¤º¸ÀÇ Á¤Á¤ ¹× »èÁ¦ ¿ä±¸´Â ´Ù¸¥ ¹ý·É¿¡¼­ ±× °³ÀÎÁ¤º¸°¡ ¼öÁý ´ë»óÀ¸·Î ¸í½ÃµÇ¾î ÀÖ´Â °æ¿ì¿¡´Â ±× »èÁ¦¸¦ ¿ä±¸ÇÒ ¼ö ¾ø½À´Ï´Ù.</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ì
+  °³¹ßÀÚ´Â Á¤º¸ÁÖÃ¼ ±Ç¸®¿¡ µû¸¥ ¿­¶÷ÀÇ ¿ä±¸, Á¤Á¤¡¤»èÁ¦ÀÇ ¿ä±¸, Ã³¸®Á¤ÁöÀÇ ¿ä±¸ ½Ã ¿­¶÷ µî ¿ä±¸¸¦ ÇÑ ÀÚ°¡ º»ÀÎÀÌ°Å³ª Á¤´çÇÑ ´ë¸®ÀÎÀÎÁö¸¦
+  È®ÀÎÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦4Á¶(Ã³¸®ÇÏ´Â
+  °³ÀÎÁ¤º¸ÀÇ Ç×¸ñ ÀÛ¼º)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¨ç&nbsp;°³¹ßÀÚ´Â
+  ´ÙÀ½ÀÇ °³ÀÎÁ¤º¸ Ç×¸ñÀ» Ã³¸®ÇÏ°í ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6728005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>1.
+  ÀçÈ­ ¶Ç´Â ¼­ºñ½º Á¦°ø</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>ÇÊ¼öÇ×¸ñ
+  : ¼­ºñ½º ÀÌ¿ë ±â·Ï, Á¢¼Ó ·Î±×</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦5Á¶(°³ÀÎÁ¤º¸ÀÇ
+  ÆÄ±â)</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ç
+  °³¹ßÀÚ´Â °³ÀÎÁ¤º¸ º¸À¯±â°£ÀÇ °æ°ú, Ã³¸®¸ñÀû ´Þ¼º µî °³ÀÎÁ¤º¸°¡ ºÒÇÊ¿äÇÏ°Ô µÇ¾úÀ» ¶§¿¡´Â ÁöÃ¼¾øÀÌ ÇØ´ç °³ÀÎÁ¤º¸¸¦ ÆÄ±âÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6328005 width=967 style='height:63.0pt;width:725pt'>¨è
+  Á¤º¸ÁÖÃ¼·ÎºÎÅÍ µ¿ÀÇ¹ÞÀº °³ÀÎÁ¤º¸ º¸À¯±â°£ÀÌ °æ°úÇÏ°Å³ª Ã³¸®¸ñÀûÀÌ ´Þ¼ºµÇ¾úÀ½¿¡µµ ºÒ±¸ÇÏ°í ´Ù¸¥ ¹ý·É¿¡ µû¶ó °³ÀÎÁ¤º¸¸¦ °è¼Ó º¸Á¸ÇÏ¿©¾ß ÇÏ´Â
+  °æ¿ì¿¡´Â, ÇØ´ç °³ÀÎÁ¤º¸¸¦ º°µµÀÇ µ¥ÀÌÅÍº£ÀÌ½º(DB)·Î ¿Å±â°Å³ª º¸°üÀå¼Ò¸¦ ´Þ¸®ÇÏ¿© º¸Á¸ÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¨é
+  °³ÀÎÁ¤º¸ ÆÄ±âÀÇ ÀýÂ÷ ¹× ¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>1.
+  ÆÄ±âÀýÂ÷</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>°³¹ßÀÚ´Â
+  ÆÄ±â »çÀ¯°¡ ¹ß»ýÇÑ °³ÀÎÁ¤º¸¸¦ ¼±Á¤ÇÏ°í, °³¹ßÀÚ ÀÇ °³ÀÎÁ¤º¸ º¸È£Ã¥ÀÓÀÚÀÇ ½ÂÀÎÀ» ¹Þ¾Æ °³ÀÎÁ¤º¸¸¦ ÆÄ±âÇÕ´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>2.
+  ÆÄ±â¹æ¹ý</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>ÀüÀÚÀû
+  ÆÄÀÏ ÇüÅÂÀÇ Á¤º¸´Â ±â·ÏÀ» Àç»ýÇÒ ¼ö ¾ø´Â ±â¼úÀû ¹æ¹ýÀ» »ç¿ëÇÕ´Ï´Ù</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦6Á¶(°³ÀÎÁ¤º¸ÀÇ
+  ¾ÈÀü¼º È®º¸ Á¶Ä¡)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>°³¹ßÀÚ´Â
+  °³ÀÎÁ¤º¸ÀÇ ¾ÈÀü¼º È®º¸¸¦ À§ÇØ ´ÙÀ½°ú °°Àº Á¶Ä¡¸¦ ÃëÇÏ°í ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>1.
+  ÇØÅ· µî¿¡ ´ëºñÇÑ ±â¼úÀû ´ëÃ¥</td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6328005 width=967 style='height:63.0pt;width:725pt'>°³¹ßÀÚ´Â
+  ÇØÅ·ÀÌ³ª ÄÄÇ»ÅÍ ¹ÙÀÌ·¯½º µî¿¡ ÀÇÇÑ °³ÀÎÁ¤º¸ À¯Ãâ ¹× ÈÑ¼ÕÀ» ¸·±â À§ÇÏ¿© º¸¾ÈÇÁ·Î±×·¥À» ¼³Ä¡ÇÏ°í ÁÖ±âÀûÀÎ °»½Å¡¤Á¡°ËÀ» ÇÏ¸ç ¿ÜºÎ·ÎºÎÅÍ
+  Á¢±ÙÀÌ ÅëÁ¦µÈ ±¸¿ª¿¡ ½Ã½ºÅÛÀ» ¼³Ä¡ÇÏ°í ±â¼úÀû/¹°¸®ÀûÀ¸·Î °¨½Ã ¹× Â÷´ÜÇÏ°í ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=29 style='mso-height-source:userset;height:21.6pt'>
+  <td height=29 class=xl6428005 width=967 style='height:21.6pt;width:725pt'>Á¦7Á¶(°³ÀÎÁ¤º¸
+  ÀÚµ¿ ¼öÁý ÀåÄ¡ÀÇ ¼³Ä¡&#8226;¿î¿µ ¹× °ÅºÎ¿¡ °üÇÑ »çÇ×)</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>°³¹ßÀÚ´Â
+  Á¤º¸ÁÖÃ¼ÀÇ ÀÌ¿ëÁ¤º¸¸¦ ÀúÀåÇÏ°í ¼ö½Ã·Î ºÒ·¯¿À´Â ¡®ÄíÅ°(cookie)¡¯¸¦ »ç¿ëÇÏÁö ¾Ê½À´Ï´Ù.</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦8Á¶
+  (°³ÀÎÁ¤º¸ º¸È£Ã¥ÀÓÀÚ)</td>
+ </tr>
+ <tr height=56 style='height:42.0pt'>
+  <td height=56 class=xl6328005 width=967 style='height:42.0pt;width:725pt'>¨ç&nbsp;°³¹ßÀÚ´Â
+  °³ÀÎÁ¤º¸ Ã³¸®¿¡ °üÇÑ ¾÷¹«¸¦ Ã¥ÀÓÁö°í, °³ÀÎÁ¤º¸ Ã³¸®¿Í °ü·ÃÇÑ Á¤º¸ÁÖÃ¼ÀÇ ºÒ¸¸Ã³¸® ¹× ÇÇÇØ±¸Á¦ µîÀ» À§ÇÏ¿© ¾Æ·¡¿Í °°ÀÌ °³ÀÎÁ¤º¸
+  º¸È£Ã¥ÀÓÀÚ¸¦ ÁöÁ¤ÇÏ°í ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6728005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>¢º
+  °³ÀÎÁ¤º¸ º¸È£Ã¥ÀÓÀÚ</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>¼º¸í
+  : Ã¤µÎ°É</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6828005 width=967 style='height:21.0pt;width:725pt'>¿¬¶ôÃ³
+  : sianuxx@gmail.com</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6328005 width=967 style='height:63.0pt;width:725pt'>¨è
+  Á¤º¸ÁÖÃ¼²²¼­´Â °³¹ßÀÚ ÀÇ ¼­ºñ½º(¶Ç´Â »ç¾÷)À» ÀÌ¿ëÇÏ½Ã¸é¼­ ¹ß»ýÇÑ ¸ðµç °³ÀÎÁ¤º¸ º¸È£ °ü·Ã ¹®ÀÇ, ºÒ¸¸Ã³¸®, ÇÇÇØ±¸Á¦ µî¿¡ °üÇÑ »çÇ×À»
+  °³ÀÎÁ¤º¸ º¸È£Ã¥ÀÓÀÚ¿¡°Ô ¹®ÀÇÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù. °³¹ßÀÚ´Â Á¤º¸ÁÖÃ¼ÀÇ ¹®ÀÇ¿¡ ´ëÇØ ÁöÃ¼ ¾øÀÌ ´äº¯ ¹× Ã³¸®ÇØµå¸± °ÍÀÔ´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦10Á¶(±ÇÀÍÄ§ÇØ
+  ±¸Á¦¹æ¹ý)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6328005 width=967 style='height:63.0pt;width:725pt'>Á¤º¸ÁÖÃ¼´Â
+  °³ÀÎÁ¤º¸Ä§ÇØ·Î ÀÎÇÑ ±¸Á¦¸¦ ¹Þ±â À§ÇÏ¿© °³ÀÎÁ¤º¸ºÐÀïÁ¶Á¤À§¿øÈ¸, ÇÑ±¹ÀÎÅÍ³ÝÁøÈï¿ø °³ÀÎÁ¤º¸Ä§ÇØ½Å°í¼¾ÅÍ µî¿¡ ºÐÀïÇØ°áÀÌ³ª »ó´ã µîÀ» ½ÅÃ»ÇÒ ¼ö
+  ÀÖ½À´Ï´Ù. ÀÌ ¹Û¿¡ ±âÅ¸ °³ÀÎÁ¤º¸Ä§ÇØÀÇ ½Å°í, »ó´ã¿¡ ´ëÇÏ¿©´Â ¾Æ·¡ÀÇ ±â°ü¿¡ ¹®ÀÇÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>1.
+  °³ÀÎÁ¤º¸ºÐÀïÁ¶Á¤À§¿øÈ¸ : (±¹¹ø¾øÀÌ) 1833-6972 (www.kopico.go.kr)</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>2.
+  °³ÀÎÁ¤º¸Ä§ÇØ½Å°í¼¾ÅÍ : (±¹¹ø¾øÀÌ) 118 (privacy.kisa.or.kr)</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>3.
+  ´ë°ËÂûÃ» : (±¹¹ø¾øÀÌ) 1301 (www.spo.go.kr)</td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>4.
+  °æÂûÃ» : (±¹¹ø¾øÀÌ) 182 (ecrm.cyber.go.kr)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=84 style='height:63.0pt'>
+  <td height=84 class=xl6328005 width=967 style='height:63.0pt;width:725pt'>¡¸°³ÀÎÁ¤º¸º¸È£¹ý¡¹Á¦35Á¶(°³ÀÎÁ¤º¸ÀÇ
+  ¿­¶÷), Á¦36Á¶(°³ÀÎÁ¤º¸ÀÇ Á¤Á¤¡¤»èÁ¦), Á¦37Á¶(°³ÀÎÁ¤º¸ÀÇ Ã³¸®Á¤Áö µî)ÀÇ ±ÔÁ¤¿¡ ÀÇÇÑ ¿ä±¸¿¡ ´ë ÇÏ¿© °ø°ø±â°üÀÇ ÀåÀÌ ÇàÇÑ Ã³ºÐ ¶Ç´Â
+  ºÎÀÛÀ§·Î ÀÎÇÏ¿© ±Ç¸® ¶Ç´Â ÀÌÀÍÀÇ Ä§ÇØ¸¦ ¹ÞÀº ÀÚ´Â ÇàÁ¤½ÉÆÇ¹ýÀÌ Á¤ÇÏ´Â ¹Ù¿¡ µû¶ó ÇàÁ¤½ÉÆÇÀ» Ã»±¸ÇÒ ¼ö ÀÖ½À´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¡Ø
+  ÇàÁ¤½ÉÆÇ¿¡ ´ëÇØ ÀÚ¼¼ÇÑ »çÇ×Àº Áß¾ÓÇàÁ¤½ÉÆÇÀ§¿øÈ¸(www.simpan.go.kr) È¨ÆäÀÌÁö¸¦ Âü°íÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6428005 width=967 style='height:21.0pt;width:725pt'>Á¦11Á¶(°³ÀÎÁ¤º¸
+  Ã³¸®¹æÄ§ º¯°æ)</td>
+ </tr>
+ <tr height=23 style='height:17.4pt'>
+  <td height=23 class=xl6528005 width=967 style='height:17.4pt;width:725pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td height=28 class=xl6328005 width=967 style='height:21.0pt;width:725pt'>¨ç ÀÌ
+  °³ÀÎÁ¤º¸Ã³¸®¹æÄ§Àº 2021³â 12¿ù 24ºÎÅÍ Àû¿ëµË´Ï´Ù.</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=967 style='width:725pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--ExcelÀÇ À¥ ÆäÀÌÁö ¸¶¹ý»ç·Î °Ô½ÃÇØ¼­ ³ª¿Â °á°úÀÇ ³¡-->
+<!----------------------------->
+</body>
+
 </html>
